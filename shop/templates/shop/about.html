@@ -1,0 +1,49 @@
+{% extends 'shop/main2.html' %}
+{% load static %}
+{% block title %} About Us{% endblock title %}
+{% block aboutactive %}active {% endblock aboutactive %}
+{% block content %}
+<h1><b><center>About - Apna Bazzar</center></b></h1>
+<div class="row mt-5">
+    <div class="col-lg-6">
+        <h2><b>We do what’s right by you. We value authenticity over everything else.</b></h2><br>
+        <p>We sell consumables that you need rather than want. In such cases, the authenticity of the product matters. Half the supplement market is flooded with fakes pumped with steroids. And that’s why when you shop whey from us, be sure it is 100% genuine, without any junk.</p><br>
+        <p>Whenever you see this logo next to our product, it’s just our way of telling you that we’ve sourced the product directly and test it before sending it out to you. It is to tell you that what you are having is safe.</p>
+    </div>
+    <div class="col-lg-6">
+     <img class="about1" src="{% static  'images/authenticity.png' %}">
+    </div>
+</div>
+<div class="row mt-5">
+    <div class="col-lg-6">
+      <img class="about2" src="{% static  'images/customer.png' %}">
+    </div>
+    <div class="col-lg-6">
+        <h2 style="margin-left:160px;"><b>Customer First</b></h2><br>
+        <p>Everything we do, say, and feel starts with our customers! Every idea, program, project, and interaction has a customer-first mindset…and we don’t stop until the customer says WOW! Our single-minded focus is helping you achieve your goals.</p>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-lg-6">
+        <h2><b>Results Driven</b></h2><br>
+        <p>We are passionate about results…whether it’s your body or our business. So, like you, we set ambitious goals, measure our performance, and strive to improve every single day.</p>
+    </div>
+    <div class="col-lg-6">
+     <img class="about3" src="{% static  'images/productivity.png' %}">
+    </div>
+</div>
+<div class="row mt-5">
+    <div class="col-lg-6">
+     <img class="about4" src="{% static  'images/work.png' %}">
+    </div>
+    <div class="col-lg-6">
+        <h2><b>We Meld Work and Life</b></h2><br>
+        <p>We want our employees to work on themselves—on their bodies, on their families, on their careers. It’s all part of our mission to help everyone become healthier and be better parents, partners, and people in the process.
+
+</p>
+    </div>
+</div>
+
+
+{% endblock %}

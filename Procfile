@@ -1,0 +1,1 @@
+web: gunicorn djangoEcommerceApp.wsgi --log-file -
